@@ -27,8 +27,8 @@ function AlumniList({ alumni }) {
   const handleGoToPage = () => {
     let p = parseInt(gotoPage, 10);
     if (!isNaN(p)) {
-      p = Math.max(1, Math.min(p, totalPages)); // Clamp
-      setPageIndex(p - 1); // 1-based => zero-based
+      p = Math.max(1, Math.min(p, totalPages)); 
+      setPageIndex(p - 1);
     }
     setGotoPage('');
   };

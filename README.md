@@ -22,10 +22,3 @@ These patterns, while critical, are often inaccessible or difficult to interpret
 ### Value Proposition
 
 RecruitU simplifies career planning by making career trajectories accessible and actionable. By focusing on clear and reliable insights, it provides users with the guidance they need to confidently pursue their professional goals.
-
-### Technologies Used
-
-- **Frontend**: React.js for an intuitive and dynamic user interface.
-- **Backend**: Node.js and Express for robust API handling.
-- **Database**: MongoDB for storing and querying career path data.
-- **Visualization**: Recharts for clear and interactive career path visualizations.
