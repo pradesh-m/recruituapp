@@ -1,0 +1,199 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.description {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #7f8c8d;
+}
+
+.mode-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.option-button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.option-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.option-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.field-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field-label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.search-input {
+  width: 70%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+}
+
+.search-button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  background-color: #2980b9;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-button:hover {
+  background-color: #1f6391;
+}
+
+.info {
+  text-align: center;
+  font-size: 1rem;
+  color: #2c3e50;
+  margin-top: 1rem;
+}
+
+.error {
+  text-align: center;
+  font-size: 1rem;
+  color: #e74c3c;
+  margin-top: 1rem;
+}
+
+.alumni-list-wrapper {
+  margin-top: 2rem;
+}
+
+.alumni-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.alumni-card {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 1rem);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #2c3e50;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.pagination-controls button {
+  padding: 0.8rem 1.5rem;
+  margin: 0 0.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.pagination-controls button:hover {
+  background-color: #0056b3;
+}
+
+.page-info {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.goto-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.goto-input {
+  width: 60px;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.goto-input:focus {
+  border-color: #007bff;
+}
+
+.visualization-wrapper {
+  margin-top: 2rem;
+}
+
+.path-item {
+  padding: 1rem;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
